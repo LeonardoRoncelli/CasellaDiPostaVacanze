@@ -1,6 +1,10 @@
 public class Email {
     private String testo;
     private String mittente;
+    public Email(String testo,String mittente){
+        this.testo=testo;
+        this.mittente=mittente;
+    }
     public void setTesto(String testo){
         this.testo=testo;
     }
